@@ -1,0 +1,2 @@
+minimumReleaseAgeExclude:
+  - '@rolldown/binding-linux-arm64-musl@1.2.3'
