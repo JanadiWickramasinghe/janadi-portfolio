@@ -4,7 +4,7 @@ import { Menu, X, ArrowUpRight, Globe2, Code2, Mail } from 'lucide-react'
 import { motion, useScroll, useSpring } from 'framer-motion'
 import { links } from '../data/siteData'
 
-const nav=[['Home','/'],['About','/#about'],['Work','/work'],['Skills','/#skills'],['Contact','/#contact']]
+const nav=[['Home','/'],['About','/#about'],['Work','/#work'],['Skills','/#skills'],['Contact','/#contact']]
 const scrollToContact=()=>window.setTimeout(()=>document.getElementById('contact')?.scrollIntoView({behavior:'smooth',block:'start'}),120)
 const scrollHome=()=>window.setTimeout(()=>window.scrollTo({top:0,behavior:'smooth'}),60)
 export function Layout({children}:{children:React.ReactNode}){
