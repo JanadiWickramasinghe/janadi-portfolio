@@ -15,3 +15,4 @@
 .direct-contact{background:var(--panel);border:1px solid var(--border);border-radius:18px;padding:30px}.direct-contact h3{font-size:1.8rem;margin:14px 0 24px}.direct-contact>a{display:grid;grid-template-columns:38px 1fr 18px;align-items:center;gap:14px;padding:18px 0;border-top:1px solid var(--border);transition:.2s}.direct-contact>a:hover{color:var(--light);padding-left:5px}.direct-contact>a>svg:first-child{width:20px;color:var(--light)}.direct-contact>a>svg:last-child{width:16px;color:#777}.direct-contact>a span{display:flex;min-width:0;flex-direction:column;gap:5px}.direct-contact>a small{font-size:9px;letter-spacing:.14em;color:#777}.direct-contact>a b{font-size:13px;overflow-wrap:anywhere}
 .btn.disabled{display:none}
 .portrait-caption{display:none}
+.case-cover.veralya-case-cover{height:auto;aspect-ratio:16/9;background:#260d0b}.case-cover.veralya-case-cover img{object-fit:contain}
